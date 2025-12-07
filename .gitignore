@@ -1,0 +1,36 @@
+# Entorno virtual
+aws_venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de logs
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de testing
+.coverage
+*.cover
+*.py,cover
+htmlcov/
+*.pytest_cache/
+
+# Archivos temporales
+*.tmp
+*.swp
+*.bak
+
+# Archivos de distribución / empaquetado
+build/
+dist/
+*.egg-info/
+.eggs/
