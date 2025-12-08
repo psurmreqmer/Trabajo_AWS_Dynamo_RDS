@@ -1,0 +1,179 @@
+{
+    "DynamoDB": {
+        "Estudiantes": [
+            {
+                "nivel_socioeconomico": "Bajo",
+                "nombre": "Lucía García",
+                "edad": "20",
+                "genero": "Femenino"
+            }
+        ],
+        "Intereses": [
+            {
+                "nombre_interes": "Música"
+            }
+        ],
+        "Actividades": [
+            {
+                "tipo": "Música",
+                "fecha": "2025-12-03",
+                "duracion": "1.5h"
+            }
+        ]
+    },
+    "RDS": {
+        "Estudiantes": [
+            {
+                "id": 5,
+                "nombre": "Melania Bueno Cabrera",
+                "edad": 18,
+                "genero": "Otro",
+                "nivel_socioeconomico": "Alto",
+                "direccion": "Cuesta de María Coll 15\nSevilla, 37771",
+                "situacion_familiar": "Cámara antes tales pp.",
+                "fecha_registro": "2023-04-06"
+            },
+            {
+                "id": 7,
+                "nombre": "Magdalena Miranda Riera",
+                "edad": 25,
+                "genero": "Femenino",
+                "nivel_socioeconomico": "Alto",
+                "direccion": "Acceso de León Barón 88 Apt. 89 \nCáceres, 20676",
+                "situacion_familiar": "Pie estaba amigo.",
+                "fecha_registro": "2021-06-08"
+            },
+            {
+                "id": 10,
+                "nombre": "Marcelino Alejandro Ferrero Corominas",
+                "edad": 22,
+                "genero": "Otro",
+                "nivel_socioeconomico": "Alto",
+                "direccion": "C. Bernardo Nogués 79\nLugo, 34430",
+                "situacion_familiar": "Bueno seguir mayo términos está punto muchas sea.",
+                "fecha_registro": "2025-09-22"
+            },
+            {
+                "id": 11,
+                "nombre": "Emperatriz Santos Requena",
+                "edad": 21,
+                "genero": "Otro",
+                "nivel_socioeconomico": "Alto",
+                "direccion": "Plaza de José Manuel Soria 580 Apt. 79 \nMálaga, 07680",
+                "situacion_familiar": "Paz realidad mediante voluntad allí antes una.",
+                "fecha_registro": "2025-03-18"
+            },
+            {
+                "id": 16,
+                "nombre": "Virginia Martin Barragán",
+                "edad": 27,
+                "genero": "Masculino",
+                "nivel_socioeconomico": "Alto",
+                "direccion": "Callejón de Isabela Cánovas 33\nLa Rioja, 09994",
+                "situacion_familiar": "Atrás deseo tales nivel dan.",
+                "fecha_registro": "2023-05-05"
+            },
+            {
+                "id": 18,
+                "nombre": "Guadalupe Emiliana Torrent Pazos",
+                "edad": 23,
+                "genero": "Femenino",
+                "nivel_socioeconomico": "Alto",
+                "direccion": "Pasaje Juan Luis Cal 1\nTeruel, 38290",
+                "situacion_familiar": "Libros fuego nombre servicio actitud.",
+                "fecha_registro": "2022-04-22"
+            }
+        ],
+        "Estudiantes_Intereses": [
+            {
+                "estudiante": "Marcelino Alejandro Ferrero Corominas",
+                "nombre_interes": "puede",
+                "nivel_interes": 2
+            },
+            {
+                "estudiante": "Marcelino Alejandro Ferrero Corominas",
+                "nombre_interes": "las",
+                "nivel_interes": 4
+            },
+            {
+                "estudiante": "Melania Bueno Cabrera",
+                "nombre_interes": "participación",
+                "nivel_interes": 5
+            },
+            {
+                "estudiante": "Melania Bueno Cabrera",
+                "nombre_interes": "las",
+                "nivel_interes": 4
+            },
+            {
+                "estudiante": "Magdalena Miranda Riera",
+                "nombre_interes": "aquella",
+                "nivel_interes": 4
+            },
+            {
+                "estudiante": "Magdalena Miranda Riera",
+                "nombre_interes": "carne",
+                "nivel_interes": 5
+            },
+            {
+                "estudiante": "Melania Bueno Cabrera",
+                "nombre_interes": "aquella",
+                "nivel_interes": 4
+            },
+            {
+                "estudiante": "Melania Bueno Cabrera",
+                "nombre_interes": "tribunal",
+                "nivel_interes": 4
+            },
+            {
+                "estudiante": "Melania Bueno Cabrera",
+                "nombre_interes": "tribunal",
+                "nivel_interes": 5
+            }
+        ],
+        "Actividades_Extraescolares": [
+            {
+                "nombre": "director",
+                "tipo": "Deporte",
+                "duracion": "4 meses",
+                "fecha_inscripcion": "2025-06-12",
+                "estudiante": "Marcelino Alejandro Ferrero Corominas"
+            },
+            {
+                "nombre": "cierto",
+                "tipo": "Música",
+                "duracion": "7 meses",
+                "fecha_inscripcion": "2025-10-31",
+                "estudiante": "Marcelino Alejandro Ferrero Corominas"
+            },
+            {
+                "nombre": "cuales",
+                "tipo": "Voluntariado",
+                "duracion": "8 meses",
+                "fecha_inscripcion": "2025-09-18",
+                "estudiante": "Melania Bueno Cabrera"
+            },
+            {
+                "nombre": "vuelta",
+                "tipo": "Arte",
+                "duracion": "11 meses",
+                "fecha_inscripcion": "2025-02-23",
+                "estudiante": "Caridad Solera-Sebastián"
+            },
+            {
+                "nombre": "usted",
+                "tipo": "Voluntariado",
+                "duracion": "1 meses",
+                "fecha_inscripcion": "2025-05-03",
+                "estudiante": "Silvio Codina Escrivá"
+            },
+            {
+                "nombre": "personas",
+                "tipo": "Música",
+                "duracion": "8 meses",
+                "fecha_inscripcion": "2025-02-02",
+                "estudiante": "Valero Raimundo Arana Rojas"
+            }
+        ]
+    }
+}
